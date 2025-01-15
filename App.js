@@ -8,7 +8,7 @@ export default function App() {
   const [upper, setUpper] = useState(0);
 
   const calculate = () => {
-    const ageNum = parseInt(age, 10); // Convert age to a number
+    const ageNum = parseInt(age, 10);
     if (!isNaN(ageNum)) {
       const lowerLimit = (220 - ageNum) * 0.65;
       const upperLimit = (220 - ageNum) * 0.85;
